@@ -37,7 +37,7 @@ if(count($_POST)>0) {
 				<div class="message"><?php if($warning!="") { echo $warning; } ?></div>
 				<input type="text" name="username" placeholder="username" required="">
 				<input type="password" name="password" placeholder="password" required="">
-				<input type="button" name="button" value="Login">	
+				<input type="button" name="submit" value="Login">	
 				<p>New here? <a href="registration.php">Sign Up</a></p>
 			</form>
 		</div>
